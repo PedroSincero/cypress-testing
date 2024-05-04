@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+#minha_foto {
+  margin: 70px 0;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+article {
+  font-size: 20px;
+  color: blue;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+.lado-direito , .lado-esquerdo {
+  width: 40%;
+  display: inline-block;
+  text-align: start;
+  border: 1px solid red;
+}

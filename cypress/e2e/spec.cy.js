@@ -1,5 +1,8 @@
 import {
   shouldExist,
+  evaluateOffset,
+  isSidebySide,
+  verifyExistingStyle,
 } from './Action';
 
 describe('template spec', () => {
